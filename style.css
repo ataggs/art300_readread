@@ -1,5 +1,5 @@
 html{
-    background-color: #86A3B1;
+    background-color: rgb(223, 230, 233);
 }
 
 pre{
@@ -18,11 +18,10 @@ pre{
 }
 
 .figurexd21e234width{
-    max-width: 40vw;
+    
     margin: auto;
     margin-bottom: 10%;
-
-    background-color: #86A3B1;
+    background-color: rgb(223, 230, 233);
 }
 .figurexd21e234width img{
     mix-blend-mode: multiply;
@@ -130,8 +129,8 @@ font-style: normal;
     font-size: .65em;
 }
 
-.pagenum #toc{
-
+p::first-letter {
+    font-size: 1.25em;
 }
 
 a{
@@ -190,14 +189,14 @@ a{
 @media only screen and (min-width: 800px) and (max-width: 1050px) {
 
     html{
-        background-color: #B98282;
+        background-color: rgb(223, 230, 233);;
     }
 
     .figurexd21e234width{
-        max-width: 40vw;
+       
         margin: auto;
         margin-bottom: 10%;
-        background-color: #B98282;
+        background-color: rgb(223, 230, 233);;
     }
     .figurexd21e234width img{
         mix-blend-mode: multiply;
