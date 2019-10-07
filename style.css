@@ -1,42 +1,205 @@
-
-p{
-margin-top: 400px;
-color: black;
-font-size: 3em;
-left: 20%;
-width: 60%;
-right: 20%;
+html{
+    background-color: #86A3B1;
 }
 
+pre{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 60%;
+    margin-right: 20%;
+    
+}
+
+.figurexxd21e228width{
+    margin-left: 26%;
+    margin-bottom: 5%;
+    
+}
+
+.figurexd21e234width{
+    margin-left: 30%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+}
+
+.subTitle{
+    margin-top: 5px;
+    font-size: .75em;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.div1contents{
+    color: black;
+}
+.byline{
+    margin-top: 15px;
+    font-size: .75em;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.docImprint{
+    
+    font-size: .75em;
+    margin-left: 25%;
+    width: 50%;
+}
+
+ul{
+    margin-top: 10px;
+    font-size: .75em;
+    margin-left: 25%;
+    width: 50%;
+}
+
+h2{
+    font-family: moby, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-left: 12%;
+}
+
+h3{
+    font-family: moby, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-left: 12%;
+}
+
+td:first-child{
+    color: #810101;
+}
+
+td{
+    width: 100%;
+    display: block;
+}
+
+p{
+margin-top: 40px;
+color: black;
+font-size:1em;
+margin-left: 17.5%;
+width: 65%;
+font-family: miller-display, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.first p{
+    color: #810101;
+
+}
+.mainTitle{
+    font-family: moby, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 8%;
+}
+.littlemaintitle{
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+    margin-left: 8%;
+}
+
+
+.pagenum{
+    margin-left: 2px;
+    margin-right: 5px; 
+}
+a{
+    color: black;
+
+}
+
+a .first p{
+    color: #810101;
+}
+
+{
+    margin-left: 20%;
+}
 
 /* --------- SMART PHONE -------- */
 
 
 @media only screen and (max-width: 800px){
 
-    p{
-    margin-top: 150px;
-    color: black;
-    font-size: 1em;
-    left: 10%;
-    width: 80%;
-    right: 10%; 
-    font-family: 
+   
+
+    
+    td{
+        width: 100%;
+        display: block;
+    }
+    
+    h2{ 
+        margin-left: 10%;
     }
 
+    p{
+    margin-top: 20px;
+    color: black;
+    font-size: 1em;
+    margin-left: 15%;
+    width: 70%;  
+    font-family: miller-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .figurexxd21e228width{
+        margin-left: 10%;
+    }
+    
+    .figurexd21e234width{
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
 }
 
 /* --------- TABLETS -------- */
 
 @media only screen and (min-width: 800px) and (max-width: 1050px) {
 
-    p{
-    margin-top: 275px;  
-    color: black;
-    font-size: 2em;
-    left: 15%;
-    width: 70%;
-    right: 15%;
+    html{
+        background-color: #B98282;
     }
 
+    td{
+        width: 100%;
+        display: block;
+    }
+    
+    h2{ 
+        margin-left: 10%;
+    }
+
+    p{
+    margin-top: 30px;  
+    color: black;
+    font-size: 1em;
+    margin-left: 15%;
+    width: 70%;
+    font-family: miller-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .figurexxd21e228width{
+        margin-left: 15%;
+        
+    }
+    
+    .figurexd21e234width{
+        margin-left: 20%;
+        margin-bottom: 10%;
+       
+    }
 }
